@@ -1,0 +1,17 @@
+{
+  "name": "cpamc-sidecar-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone sidecar management dashboard for CPAMC API key usage.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:prod": "node server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check scripts/doctor.js && node --check scripts/generate-secret.js",
+    "doctor": "node scripts/doctor.js",
+    "secret": "node scripts/generate-secret.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

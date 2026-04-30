@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+data/
+dist/
+node_modules/
+npm-debug.log*
+.server*.log
+.codex-*.png
+.codex-*.log
+.DS_Store

@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+data/
+dist/
+node_modules/
+
+npm-debug.log*
+*.log
+.server*.log
+.codex-*.log
+.codex-*.png
+
+.DS_Store
+Thumbs.db
